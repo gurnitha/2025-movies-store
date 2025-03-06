@@ -23,3 +23,6 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
 #### 1.8. Menginstal Django versi 5.1.6 
 
 #### 1.9. Mengupgrade pip
+
+
+## 2. PROYEK DJANGO
