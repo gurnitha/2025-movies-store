@@ -109,3 +109,12 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         modified:   README.md
         modified:   templates/home/about.html
         modified:   templates/home/contact.html
+
+#### 3.5. Menampilkan data untuk page title
+
+        modified:   README.md
+        modified:   app/home/views.py
+        modified:   templates/base.html
+        modified:   templates/home/about.html
+        modified:   templates/home/contact.html
+        modified:   templates/home/home.html
