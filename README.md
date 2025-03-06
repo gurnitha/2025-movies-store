@@ -36,3 +36,7 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+#### 2.2. Menjalankan django development server
+
+        (venv312516) λ python manage.py runserver
