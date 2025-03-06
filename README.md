@@ -40,3 +40,10 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
 #### 2.2. Menjalankan django development server
 
         (venv312516) λ python manage.py runserver
+
+#### 2.3. Tentang proyek Movies Store
+
+#### 2.4. Django MVT (Models, Views, Templates)
+
+
+## 2. STRUKTUR PROYEK DAN APLIKASI DJANGO
