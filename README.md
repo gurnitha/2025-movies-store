@@ -60,3 +60,7 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         new file:   app/home/views.py
         modified:   config/settings.py
 
+#### 2.2. Mendaftarkan aplikasi pada config/settings.py
+
+        modified:   README.md
+        modified:   config/settings.py

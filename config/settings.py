@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Mendefinisikan path untuk app
+import os, sys 
+APPS_DIR = os.path.join(BASE_DIR, 'app')
+sys.path.insert(0, APPS_DIR)
 
 # Application definition
 
