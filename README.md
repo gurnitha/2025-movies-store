@@ -47,3 +47,16 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
 
 
 ## 2. STRUKTUR PROYEK DAN APLIKASI DJANGO
+
+#### 2.1. Membuat aplikasi django
+
+        modified:   README.md
+        new file:   app/home/__init__.py
+        new file:   app/home/admin.py
+        new file:   app/home/apps.py
+        new file:   app/home/migrations/__init__.py
+        new file:   app/home/models.py
+        new file:   app/home/tests.py
+        new file:   app/home/views.py
+        modified:   config/settings.py
+
