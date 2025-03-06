@@ -64,3 +64,12 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
 
         modified:   README.md
         modified:   config/settings.py
+
+#### 2.3. Membuat laman home
+
+        modified:   README.md
+        new file:   app/home/urls.py
+        modified:   app/home/views.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   templates/home/home.html
