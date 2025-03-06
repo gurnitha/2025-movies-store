@@ -123,3 +123,13 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
 
         modified:   README.md
         modified:   templates/base.html
+
+#### 3.7. Menambahkan dan mengunggah static files
+
+        modified:   README.md
+        modified:   config/settings.py
+        new file:   static/assets/css/all.min.css
+        new file:   static/assets/css/bootstrap.min.css
+        new file:   static/assets/css/google-fonts.css
+        new file:   static/assets/js/bootstrap.bundle.min.js
+        modified:   templates/base.html
