@@ -24,8 +24,15 @@ movies = [
 ]
 
 def movies_view(request):
-	context = {
-		'page_title': 'Movies',
-	}
-	return render(request, 'movies/movies.html', context)
+    template_data = {}
+    template_data['movies'] = movies
+    context = {
+        'page_title': 'Movies',
+        'template_data': template_data,
+    }
+    return render(request, 'movies/movies.html', context)
+
+
+
+
 

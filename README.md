@@ -157,7 +157,7 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
 
 ## 5. MOVIES APP
 
-#### 5.1. Membuat aplikasi moviews
+#### 5.1. Membuat aplikasi movies
 
         modified:   README.md
         new file:   app/movies/__init__.py
@@ -169,7 +169,7 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         new file:   app/movies/views.py
         modified:   config/settings.py
 
-#### 5.2. Membuat laman moviews
+#### 5.2. Membuat laman movies
 
         modified:   README.md
         new file:   app/movies/urls.py
@@ -178,12 +178,18 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         modified:   templates/inc/header.html
         new file:   templates/movies/movies.html
 
-#### 5.3. Mengisi template untuk laman moviews
+#### 5.3. Mengisi template untuk laman movies
 
         modified:   README.md
         modified:   templates/movies/movies.html
 
-#### 5.4. Membuat dummy data moviews
+#### 5.4. Membuat dummy data movies
 
         modified:   README.md
         modified:   app/movies/views.py
+
+#### 5.4. Merender movies data dummy
+
+        modified:   README.md
+        modified:   app/movies/views.py
+        modified:   templates/movies/movies.html
