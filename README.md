@@ -193,3 +193,11 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         modified:   README.md
         modified:   app/movies/views.py
         modified:   templates/movies/movies.html
+
+#### 5.5. Merender singel movie data dummy
+
+        modified:   README.md
+        modified:   app/movies/urls.py
+        modified:   app/movies/views.py
+        new file:   templates/movies/movie.html
+        modified:   templates/movies/movies.html
