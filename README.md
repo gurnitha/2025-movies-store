@@ -46,9 +46,9 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
 #### 2.4. Django MVT (Models, Views, Templates)
 
 
-## 2. STRUKTUR PROYEK DAN APLIKASI DJANGO
+## 3. STRUKTUR PROYEK DAN APLIKASI DJANGO
 
-#### 2.1. Membuat aplikasi django
+#### 3.1. Membuat aplikasi django
 
         modified:   README.md
         new file:   app/home/__init__.py
@@ -60,12 +60,12 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         new file:   app/home/views.py
         modified:   config/settings.py
 
-#### 2.2. Mendaftarkan aplikasi pada config/settings.py
+#### 3.2. Mendaftarkan aplikasi pada config/settings.py
 
         modified:   README.md
         modified:   config/settings.py
 
-#### 2.3. Membuat laman home
+#### 3.3. Membuat laman home
 
         modified:   README.md
         new file:   app/home/urls.py
@@ -74,14 +74,14 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         modified:   config/urls.py
         new file:   templates/home/home.html
 
-#### 2.4. Membuat laman about
+#### 3.4. Membuat laman about
 
         modified:   README.md
         modified:   app/home/urls.py
         modified:   app/home/views.py
         new file:   templates/home/about.html
 
-#### 2.5. Membuat laman contact
+#### 3.5. Membuat laman contact
 
         modified:   README.md
         modified:   app/home/urls.py
@@ -90,27 +90,27 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         new file:   templates/home/contact.html
 
 
-## 3. TEMPLATES
+## 4. TEMPLATES
 
-#### 3.1. Django template tags
+#### 4.1. Django template tags
 
-#### 3.2. Membuat base template
+#### 4.2. Membuat base template
 
         modified:   README.md
         new file:   templates/base.html
 
-#### 3.3. Menggunakan base tempate pada laman home
+#### 4.3. Menggunakan base tempate pada laman home
 
         modified:   README.md
         modified:   templates/home/home.html
 
-#### 3.4. Menggunakan base tempate pada laman about dan contact
+#### 4.4. Menggunakan base tempate pada laman about dan contact
 
         modified:   README.md
         modified:   templates/home/about.html
         modified:   templates/home/contact.html
 
-#### 3.5. Menampilkan data untuk page title
+#### 4.5. Menampilkan data untuk page title
 
         modified:   README.md
         modified:   app/home/views.py
@@ -119,12 +119,12 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         modified:   templates/home/contact.html
         modified:   templates/home/home.html
 
-#### 3.6. Membuat navigasi dan menautkan halaman
+#### 4.6. Membuat navigasi dan menautkan halaman
 
         modified:   README.md
         modified:   templates/base.html
 
-#### 3.7. Menambahkan dan mengunggah static files
+#### 4.7. Menambahkan dan mengunggah static files
 
         modified:   README.md
         modified:   config/settings.py
@@ -134,7 +134,7 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         new file:   static/assets/js/bootstrap.bundle.min.js
         modified:   templates/base.html
 
-#### 3.8. Menata halaman (styling) 
+#### 4.8. Menata halaman (styling) 
 
         modified:   README.md
         new file:   static/assets/css/style.css
@@ -147,7 +147,7 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         modified:   templates/home/contact.html
         modified:   templates/home/home.html
 
-#### 3.9. Template inheritance
+#### 4.9. Template inheritance
 
         modified:   README.md
         modified:   templates/base.html
@@ -155,9 +155,9 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         new file:   templates/inc/header.html
 
 
-## 4. MOVIES APP
+## 5. MOVIES APP
 
-#### 4.1. Membuat aplikasi moviews
+#### 5.1. Membuat aplikasi moviews
 
         modified:   README.md
         new file:   app/movies/__init__.py
@@ -168,3 +168,12 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         new file:   app/movies/tests.py
         new file:   app/movies/views.py
         modified:   config/settings.py
+
+#### 5.2. Membuat laman moviews
+
+        modified:   README.md
+        new file:   app/movies/urls.py
+        modified:   app/movies/views.py
+        modified:   config/urls.py
+        modified:   templates/inc/header.html
+        new file:   templates/movies/movies.html
