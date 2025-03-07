@@ -207,3 +207,6 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
         new file:   MIT license.txt
         modified:   README.md
+
+
+## 6. MODELS
