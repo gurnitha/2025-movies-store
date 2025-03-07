@@ -270,4 +270,14 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         new file:   media/movie_images/inception.jpg
 
 
-## 6. MENGAMBIL DAN MENAMPILKAN DATA DARI DATABASE
+## 7. MENGAMBIL DAN MENAMPILKAN DATA DARI DATABASE
+
+#### 7.1. Menampilkan daftar movies pada laman movies
+
+        modified:   README.md
+        modified:   app/movies/views.py
+        new file:   media/movie_images/avatar.jpg
+        new file:   media/movie_images/dark.jpg
+        new file:   media/movie_images/titanic.jpg
+        modified:   static/assets/css/style.css
+        modified:   templates/movies/movies.html

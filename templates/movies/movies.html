@@ -2,7 +2,7 @@
 {% extends 'base.html' %}
 
 {% block title %}
-{{ block.super }} {{ page_title }}
+{{ block.super }} {{ template_data.title }}
 {% endblock title %}
 
 {% block content %}
@@ -20,10 +20,11 @@
             <!-- card -->
             <div class="col-md-4 col-lg-3 mb-2">
                 <div class="p-2 card align-items-center pt-4">
-                    <img src="{% static 'assets/img/about.jpg' %}" 
-                        class="card-img-top rounded">
+                    <img src="{{ movie.image.url }}" 
+                        class="card-img-top rounded img-card-200">
                     <div class="card-body text-center">
-                        <a href="{% url 'movies:movie' id=movie.id %}" class="btn bg-dark text-white">
+                        <a href="{% url 'movies:movie' id=movie.id %}" 
+                            class="btn bg-dark text-white">
                         {{ movie.name }}
                         </a>
                     </div>
