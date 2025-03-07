@@ -146,3 +146,10 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         modified:   templates/home/about.html
         modified:   templates/home/contact.html
         modified:   templates/home/home.html
+
+#### 3.9. Template inheritance
+
+        modified:   README.md
+        modified:   templates/base.html
+        new file:   templates/inc/footer.html
+        new file:   templates/inc/header.html
