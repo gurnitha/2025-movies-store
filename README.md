@@ -302,3 +302,8 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
         modified:   README.md
         modified:   app/movies/admin.py
+
+#### 8.2. Mendefinisikan pencarian berdasarkan nama
+
+        modified:   README.md
+        modified:   app/movies/admin.py
