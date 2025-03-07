@@ -281,3 +281,10 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         new file:   media/movie_images/titanic.jpg
         modified:   static/assets/css/style.css
         modified:   templates/movies/movies.html
+
+#### 7.2. Menampilkan singel movie pada laman movie
+
+        modified:   README.md
+        modified:   app/movies/views.py
+        modified:   static/assets/css/style.css
+        modified:   templates/movies/movie.html

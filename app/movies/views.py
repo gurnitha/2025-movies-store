@@ -17,12 +17,11 @@ def movies_view(request):
 
 
 def movie_view(request, id):
-    movie = movies[id - 1]
+    movie =  Movie.objects.get(id=id)
     template_data = {}
-    template_data['title'] = movie['name']
+    template_data['title'] = movie.name
     template_data['movie'] = movie
     context = {
-        'page_title': template_data['title'],
         'template_data': template_data,
     }
     return render(request, 'movies/movie.html', context)
