@@ -216,3 +216,42 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   README.md
         new file:   app/movies/migrations/0001_initial.py
         modified:   app/movies/models.py
+
+#### 6.2. Membuat superuser
+
+        (venv312516) λ python manage.py createsuperuser
+        
+        (venv312516) λ python manage.py dbshell
+        SQLite version 3.19.1 2017-05-24 13:08:33
+        Enter ".help" for usage hints.
+        sqlite>
+        sqlite> .mode column
+        sqlite> .header on
+        sqlite>
+        sqlite> .tables
+        auth_group                  django_admin_log
+        auth_group_permissions      django_content_type
+        auth_permission             django_migrations
+        auth_user                   django_session
+        auth_user_groups            movies_movie
+        auth_user_user_permissions
+        sqlite>
+        sqlite> pragma table_info('auth_user');
+        cid         name        type        notnull     dflt_value  pk
+        ----------  ----------  ----------  ----------  ----------  ----------
+        0           id          integer     1                       1
+        1           password    varchar(12  1                       0
+        2           last_login  datetime    0                       0
+        3           is_superus  bool        1                       0
+        4           username    varchar(15  1                       0
+        5           last_name   varchar(15  1                       0
+        6           email       varchar(25  1                       0
+        7           is_staff    bool        1                       0
+        8           is_active   bool        1                       0
+        9           date_joine  datetime    1                       0
+        10          first_name  varchar(15  1                       0
+        sqlite>
+        sqlite> SELECT username, email FROM auth_user;
+        username    email
+        ----------  ------------------
+        superuser   superuser@mail.com
