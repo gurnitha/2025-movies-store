@@ -1,18 +1,69 @@
 <!-- templates/movies/movies.html -->
 {% extends 'base.html' %}
-{% load static %}
 
 {% block title %}
 {{ block.super }} {{ page_title }}
 {% endblock title %}
 
 {% block content %}
+{% load static %}
 <div class="p-3">
     <div class="container">
         <div class="row mt-3">
-            <div class="col mx-auto text-center mb-3">
-                <h4>List of Movies</h4>
+            <div class="col mx-auto mb-3">
+                <h2>List of Movies</h2>
+                <hr />
             </div>
+        </div>
+        <div class="row">
+            <!-- card -->
+            <div class="col-md-4 col-lg-3 mb-2">
+                <div class="p-2 card align-items-center pt-4">
+                    <img src="{% static 'assets/img/about.jpg' %}" class="card-img-top rounded">
+                    <div class="card-body text-center">
+                        <a href="" class="btn bg-dark text-white">
+                        Inception
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card ends -->
+            <!-- card -->
+            <div class="col-md-4 col-lg-3 mb-2">
+                <div class="p-2 card align-items-center pt-4">
+                    <img src="{% static 'assets/img/about.jpg' %}" class="card-img-top rounded">
+                    <div class="card-body text-center">
+                        <a href="" class="btn bg-dark text-white">
+                        Avatar
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card ends -->
+            <!-- card -->
+            <div class="col-md-4 col-lg-3 mb-2">
+                <div class="p-2 card align-items-center pt-4">
+                    <img src="{% static 'assets/img/about.jpg' %}" class="card-img-top rounded">
+                    <div class="card-body text-center">
+                        <a href="" class="btn bg-dark text-white">
+                        The Dark Knight
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card ends -->
+            <!-- card -->
+            <div class="col-md-4 col-lg-3 mb-2">
+                <div class="p-2 card align-items-center pt-4">
+                    <img src="{% static 'assets/img/about.jpg' %}" class="card-img-top rounded">
+                    <div class="card-body text-center">
+                        <a href="" class="btn bg-dark text-white">
+                        Titanic
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card ends -->
         </div>
     </div>
 </div>

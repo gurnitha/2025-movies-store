@@ -177,3 +177,8 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         modified:   config/urls.py
         modified:   templates/inc/header.html
         new file:   templates/movies/movies.html
+
+#### 5.3. Mengisi template untuk laman moviews
+
+        modified:   README.md
+        modified:   templates/movies/movies.html
