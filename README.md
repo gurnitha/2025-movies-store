@@ -268,3 +268,6 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   app/movies/admin.py
         modified:   config/settings.py
         new file:   media/movie_images/inception.jpg
+
+
+## 6. MENGAMBIL DAN MENAMPILKAN DATA DARI DATABASE
