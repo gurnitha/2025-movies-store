@@ -255,3 +255,9 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         username    email
         ----------  ------------------
         superuser   superuser@mail.com
+
+#### 6.3. Mengkonfigursai path untuk unggahan gambar
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   config/urls.py
