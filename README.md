@@ -1,5 +1,6 @@
 # 2025-movies-store
 Membuat aplikasi Movies Store menggunakan Django versi 5
+Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edition?tab=MIT-1-ov-file
 
 
 ## 1. SETUP
@@ -201,3 +202,8 @@ Membuat aplikasi Movies Store menggunakan Django versi 5
         modified:   app/movies/views.py
         new file:   templates/movies/movie.html
         modified:   templates/movies/movies.html
+
+#### 5.6. Mencantumkan lisensi software
+
+        new file:   MIT license.txt
+        modified:   README.md
