@@ -294,3 +294,6 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   README.md
         modified:   app/movies/views.py
         modified:   templates/movies/movies.html
+
+
+## 8. DATABASE
