@@ -297,3 +297,8 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
 
 ## 8. DATABASE
+
+#### 8.1. Menyesuaikan (customizing) panel admin Django Mengurutkan film berdasarkan nama
+
+        modified:   README.md
+        modified:   app/movies/admin.py

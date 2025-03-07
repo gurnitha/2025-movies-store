@@ -6,4 +6,30 @@ from .models import Movie
 
 # Register your models here.
 
-admin.site.register(Movie)
+class MovieAdmin(admin.ModelAdmin):
+	ordering = ['name']
+
+admin.site.register(Movie, MovieAdmin)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
