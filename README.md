@@ -288,3 +288,9 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   app/movies/views.py
         modified:   static/assets/css/style.css
         modified:   templates/movies/movie.html
+
+#### 7.3. Membuat fungsi pencarian (search) movie
+
+        modified:   README.md
+        modified:   app/movies/views.py
+        modified:   templates/movies/movies.html
