@@ -1,10 +1,32 @@
 <!-- templates/home/contact.html -->
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}
 {{ block.super }} {{ page_title }}
 {% endblock title %}
 
 {% block content %}
-	<h1>Contact page</h1>
+{% load static %}
+<div class="p-3">
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-6 mx-auto mb-3">
+                <h2>Contact</h2>
+                <hr />
+                <ul>
+                	<li>Phone: 0895325183349</li>
+                	<li>WhatsApp: 0895325183349</li>
+                	<li>Email: inyoman_gurnitha@yahoo.com</li>
+                </ul>
+                <p>We serve you 24/7. No worries... <a href="https://github.com/gurnitha/2025-movies-store" target="_blank">just click this link</a>
+                </p>
+            </div>
+            <div class="col-md-6 mx-auto mb-3 text-center">
+                <img src="{% static 'assets/img/contact.png' %}" class="max-width-100" alt="contact" />
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock content %}
+
