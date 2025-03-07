@@ -210,3 +210,9 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
 
 ## 6. MODELS
+
+#### 6.1. Membuat model Movie
+
+        modified:   README.md
+        new file:   app/movies/migrations/0001_initial.py
+        modified:   app/movies/models.py
