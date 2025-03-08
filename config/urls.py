@@ -11,6 +11,8 @@ urlpatterns = [
     path('', include('movies.urls', namespace='movies')),
     # accounts
     path('', include('accounts.urls', namespace='accounts')),
+    # cart
+    path('', include('cart.urls', namespace='cart')),
     # admin
     path('admin/', admin.site.urls),
 ]

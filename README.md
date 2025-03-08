@@ -442,3 +442,43 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         new file:   app/cart/tests.py
         new file:   app/cart/views.py
         modified:   config/settings.py
+
+#### 11.2. Menambahkan movies ke keranjang
+
+        modified:   README.md
+        new file:   app/cart/urls.py
+        modified:   app/cart/views.py
+        modified:   config/urls.py
+        modified:   templates/movies/movie.html
+
+#### 11.3. Mencantumkan movies yang ditambahkan ke keranjang
+
+        modified:   README.md
+
+        Agar dapat mencantumkan film yang ditambahkan ke keranjang, 
+        ikuti langkah-langkah berikut:
+
+        1. Mengkonfigurasikan URL movie_list keranjang.
+        new file:   app/cart/urls.py
+        modified:   config/urls.py
+        2. Mendefinisikan fungsi movie_list_view.
+        modified:   app/cart/views.py
+        3. Membuat templat templates/cart/movie_list.
+        new file:   templates/cart/cart_list.html
+        4. Memperbarui fungsi add_to_cart.
+        modified:   templates/movies/movie.html
+        5. Mendefinisikan file utils.
+        new file:   app/cart/utils.py
+        6. Mendefinisikan filter.
+        new file:   app/cart/templatetags/cart_filters.py
+        7. Menambahkan tautan di templat base.
+        modified:   templates/inc/header.html
+
+        
+        
+        
+        
+        
+        
+        
+        
