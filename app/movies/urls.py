@@ -10,5 +10,6 @@ app_name = 'movies'
 urlpatterns = [
     path('movies/', views.movies_view, name='movies'),
     path('movie/<int:id>/', views.movie_view, name='movie'),
+    path('movie/<int:id>/review/create/', views.create_review_view, name='create_review'),
 ]
 

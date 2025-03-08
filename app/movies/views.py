@@ -1,8 +1,9 @@
 # app/movies/views.py
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 
 # Local
-from .models import Movie
+from .models import Movie, Review
 
 # Create your views here.
 
@@ -36,6 +37,18 @@ def movie_view(request, id):
     return render(request, 'movies/movie.html', context)
 
 
+@login_required
+def create_review_view(request, id):
+    if request.method == 'POST' and request.POST['comment'] != '':
+        movie = Movie.objects.get(id=id)
+        review = Review()
+        review.comment = request.POST['comment']
+        review.movie = movie
+        review.user = request.user
+        review.save()
+        return redirect('movies:movie', id=id)
+    else:
+        return redirect('movies:movie', id=id)
 
 
 

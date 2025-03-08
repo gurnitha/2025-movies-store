@@ -399,3 +399,10 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   app/movies/admin.py
         new file:   app/movies/migrations/0002_review.py
         modified:   app/movies/models.py
+
+#### 10.2. CRUD REVIEW: CREATE reviews
+
+        modified:   README.md
+        modified:   app/movies/urls.py
+        modified:   app/movies/views.py
+        modified:   templates/movies/movie.html
