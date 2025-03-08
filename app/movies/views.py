@@ -28,9 +28,12 @@ def movies_view(request):
 
 def movie_view(request, id):
     movie =  Movie.objects.get(id=id)
+    reviews = Review.objects.filter(movie=movie)
+
     template_data = {}
     template_data['title'] = movie.name
     template_data['movie'] = movie
+    template_data['reviews'] = reviews
     context = {
         'template_data': template_data,
     }
