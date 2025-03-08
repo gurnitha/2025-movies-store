@@ -480,3 +480,6 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   app/cart/urls.py
         modified:   app/cart/views.py
         modified:   templates/cart/cart_list.html
+
+
+## 12. MODELS ORDER DAN ITEM
