@@ -320,3 +320,15 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
 
 ## 9. MANAGEMEN USERS
+
+#### 9.1. Membuat aplikasi accounts dan mengintegrasikannya dengan proyek
+
+        modified:   README.md
+        new file:   app/accounts/__init__.py
+        new file:   app/accounts/admin.py
+        new file:   app/accounts/apps.py
+        new file:   app/accounts/migrations/__init__.py
+        new file:   app/accounts/models.py
+        new file:   app/accounts/tests.py
+        new file:   app/accounts/views.py
+        modified:   config/settings.py
