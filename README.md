@@ -412,3 +412,11 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   README.md
         modified:   app/movies/views.py
         modified:   templates/movies/movie.html
+
+#### 10.4. CRUD REVIEW: UPDATE reviews
+
+        modified:   README.md
+        modified:   app/movies/urls.py
+        modified:   app/movies/views.py
+        new file:   templates/movies/edit_review.html
+        modified:   templates/movies/movie.html
