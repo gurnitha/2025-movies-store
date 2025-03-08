@@ -317,3 +317,6 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         new file:   media/movie_images/dark_Xt9Fuoe.jpg
         new file:   media/movie_images/inception_zi0dd05.jpg
         new file:   media/movie_images/titanic_Crcqz5E.jp
+
+
+## 9. MANAGEMEN USERS
