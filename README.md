@@ -430,3 +430,15 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
 
 ## 11. SHOPPING CART SYSTEM
+
+#### 11.1. Membuat aplikasi cart
+
+        modified:   README.md
+        new file:   app/cart/__init__.py
+        new file:   app/cart/admin.py
+        new file:   app/cart/apps.py
+        new file:   app/cart/migrations/__init__.py
+        new file:   app/cart/models.py
+        new file:   app/cart/tests.py
+        new file:   app/cart/views.py
+        modified:   config/settings.py
