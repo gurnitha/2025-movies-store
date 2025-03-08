@@ -392,3 +392,10 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
 
 ## 10. MOVIE REVIEWS: USER'S CRUD
+
+#### 10.1. Membuat Review model
+
+        modified:   README.md
+        modified:   app/movies/admin.py
+        new file:   app/movies/migrations/0002_review.py
+        modified:   app/movies/models.py
