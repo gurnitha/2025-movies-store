@@ -2,7 +2,7 @@
 from django.shortcuts import render
 from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import redirect
-from .forms import CustomUserCreationForm
+from .forms import CustomUserCreationForm, CustomErrorList
 
 # Create your views here.
 
@@ -21,7 +21,8 @@ def signup_view(request):
 
 	# Handling POST method request
 	elif request.method == 'POST':
-		form = CustomUserCreationForm(request.POST)
+		form = CustomUserCreationForm(request.POST, 
+			error_class=CustomErrorList)
 		if form.is_valid():
 			form.save()
 			return redirect('home:home')

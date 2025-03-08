@@ -363,3 +363,9 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
         Testing:
         Sukses membuat user baru. :)
+
+#### 9.4. Membuat cara menampilkan error
+
+        modified:   README.md
+        modified:   app/accounts/forms.py
+        modified:   app/accounts/views.py
