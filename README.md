@@ -307,3 +307,13 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
         modified:   README.md
         modified:   app/movies/admin.py
+
+#### 8.3. Mengganti database Sqlite dengan database MySQL
+
+        modified:   README.md
+        modified:   app/movies/migrations/0001_initial.py
+        modified:   config/settings.py
+        new file:   media/movie_images/avatar_Wr3FVfI.jpg
+        new file:   media/movie_images/dark_Xt9Fuoe.jpg
+        new file:   media/movie_images/inception_zi0dd05.jpg
+        new file:   media/movie_images/titanic_Crcqz5E.jp
