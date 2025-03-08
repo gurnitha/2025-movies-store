@@ -26,7 +26,7 @@ def signup_view(request):
             error_class=CustomErrorList)
         if form.is_valid():
             form.save()
-            return redirect('home:home')
+            return redirect('accounts:login')
         else:
             template_data['form'] = form
             context = {

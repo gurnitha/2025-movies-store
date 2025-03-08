@@ -377,3 +377,8 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   app/accounts/views.py
         new file:   templates/accounts/login.html
         modified:   templates/inc/header.html
+
+ #### 9.6. Mengalihkan pengguna terdaftar ke halaman login
+
+        modified:   README.md
+        modified:   app/accounts/views.py
