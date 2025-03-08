@@ -1,6 +1,7 @@
 # app/accounts/views.py
 from django.shortcuts import render
 from django.contrib.auth.forms import UserCreationForm
+from django.shortcuts import redirect
 
 # Create your views here.
 
@@ -12,10 +13,20 @@ def signup_view(request):
 	# Handling GET method request
 	if request.method == 'GET':
 		template_data['form'] = UserCreationForm()
+		context = {
+			'template_data': template_data,
+		}
+		return render(request, 'accounts/signup.html', context)
 
-	context = {
-		'template_data': template_data,
-	}
-
-	return render(request, 'accounts/signup.html', context)
-
+	# Handling POST method request
+	elif request.method == 'POST':
+		form = UserCreationForm(request.POST)
+		if form.is_valid():
+			form.save()
+			return redirect('home:home')
+		else:
+			template_data['form'] = form
+			context = {
+				'template_data': template_data,
+			}
+			return render(request, 'accounts/signup.html', context)

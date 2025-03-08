@@ -341,3 +341,14 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   config/urls.py
         new file:   templates/accounts/signup.html
         modified:   templates/inc/header.html
+
+#### 9.2. User signup add Post method)
+
+        modified:   README.md
+        modified:   app/accounts/urls.py
+        modified:   app/accounts/views.py
+
+        Note:
+
+        Testing:
+        Sukses membuat user baru. :)
