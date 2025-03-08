@@ -352,3 +352,14 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
         Testing:
         Sukses membuat user baru. :)
+
+#### 9.3. Membuat kustom CustomUserCreationForm
+
+        modified:   README.md
+        new file:   app/accounts/forms.py
+        modified:   app/accounts/views.py
+
+        Note:
+
+        Testing:
+        Sukses membuat user baru. :)
