@@ -332,3 +332,12 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         new file:   app/accounts/tests.py
         new file:   app/accounts/views.py
         modified:   config/settings.py
+
+#### 9.2. User signup basics (handing GET method)
+
+        modified:   README.md
+        new file:   app/accounts/urls.py
+        modified:   app/accounts/views.py
+        modified:   config/urls.py
+        new file:   templates/accounts/signup.html
+        modified:   templates/inc/header.html

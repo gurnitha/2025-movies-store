@@ -9,6 +9,8 @@ urlpatterns = [
     path('', include('home.urls', namespace='home')),
     # movies
     path('', include('movies.urls', namespace='movies')),
+    # accounts
+    path('', include('accounts.urls', namespace='accounts')),
     # admin
     path('admin/', admin.site.urls),
 ]
