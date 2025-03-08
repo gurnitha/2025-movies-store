@@ -474,11 +474,9 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         7. Menambahkan tautan di templat base.
         modified:   templates/inc/header.html
 
-        
-        
-        
-        
-        
-        
-        
-        
+#### 11.4 Menghapus movies dari cart
+
+        modified:   README.md
+        modified:   app/cart/urls.py
+        modified:   app/cart/views.py
+        modified:   templates/cart/cart_list.html

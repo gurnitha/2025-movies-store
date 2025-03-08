@@ -33,3 +33,8 @@ def cart_list_view(request):
         'template_data': template_data,
     }
     return render(request, 'cart/cart_list.html', context)
+
+
+def cart_clear_view(request):
+    request.session['cart'] = {}
+    return redirect('cart:cart_list')
