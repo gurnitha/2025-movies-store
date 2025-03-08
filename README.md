@@ -382,3 +382,10 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
         modified:   README.md
         modified:   app/accounts/views.py
+
+#### 9.7. User logout
+
+        modified:   README.md
+        modified:   app/accounts/urls.py
+        modified:   app/accounts/views.py
+        modified:   templates/inc/header.html
