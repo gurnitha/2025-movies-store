@@ -483,3 +483,10 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
 
 ## 12. MODELS ORDER DAN ITEM
+
+#### 12.1. Membuat model Order
+
+        modified:   README.md
+        modified:   app/cart/admin.py
+        new file:   app/cart/migrations/0001_initial.py
+        modified:   app/cart/models.py
