@@ -521,3 +521,31 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         4. Klik Purchase
         DONE :)
 
+#### 13.2. Membuat laman order
+
+        Langkah-langkah:
+
+        modified:   README.md
+        1. Mengonfigurasi URL pesanan.
+        modified:   app/accounts/urls.py
+        2. Menentukan fungsi pesanan.
+        modified:   app/accounts/views.py
+        3. Membuat templat accounts orders.
+        new file:   templates/accounts/orders.html
+        modified:   templates/inc/header.html
+        4. Menambahkan tautan ke templat dasar.
+        modified:   templates/movies/movies.html
+
+#### 13.3. House keeping
+
+        modified:   README.md
+        modified:   templates/accounts/login.html
+        modified:   templates/accounts/orders.html
+        modified:   templates/accounts/signup.html
+        modified:   templates/base.html
+        modified:   templates/cart/cart_list.html
+        modified:   templates/cart/purchase.html
+        modified:   templates/inc/footer.html
+        modified:   templates/inc/header.html
+        modified:   templates/movies/movie.html
+        modified:   templates/movies/movies.html

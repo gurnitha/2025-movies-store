@@ -43,22 +43,19 @@
             <div class="text-end">
                 <a class="btn btn-outline-secondary mb-2"><b>Total
                 to pay:</b> ${{ template_data.cart_total }}</a>
-                
                 <!-- Purchace dan menghapus movies dari cart -->
                 {% if template_data.movies_in_cart|length > 0 %}
-                    <a href="{% url 'cart:cart_purchase' %}" 
-                        class="btn bg-dark text-white mb-2">
-                        Purchase 
-                    </a>
-
-                    <a href="{% url 'cart:cart_clear' %}">
-                        <button class="btn btn-danger mb-2">
-                            Remove all movies from Cart
-                        </button>
-                    </a>
+                <a href="{% url 'cart:cart_purchase' %}" 
+                    class="btn bg-dark text-white mb-2">
+                Purchase 
+                </a>
+                <a href="{% url 'cart:cart_clear' %}">
+                <button class="btn btn-danger mb-2">
+                Remove all movies from Cart
+                </button>
+                </a>
                 {% endif %}
                 <!-- Purchace dan menghapus movies dari cart ends -->
-                
             </div>
         </div>
     </div>
