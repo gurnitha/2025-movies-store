@@ -7,6 +7,9 @@ from django.contrib.auth import (
     authenticate,
     logout as auth_logout,)
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
+
+# Local
 from .forms import CustomUserCreationForm, CustomErrorList
 
 # Create your views here.
@@ -73,3 +76,14 @@ def login_view(request):
 def logout_view(request):
     auth_logout(request)
     return redirect('home:home')
+
+
+@login_required
+def orders_view(request):
+    template_data = {}
+    template_data['title'] = 'Orders'
+    template_data['orders'] = request.user.order_set.all()
+    context = {
+        'template_data': template_data,
+    }
+    return render(request, 'accounts/orders.html', context)
