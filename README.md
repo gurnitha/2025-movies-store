@@ -500,3 +500,24 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
 
 
 ## 13. LAMAN PEMBELIAN DAN ORDER
+
+#### 13.1. Membuat fungsi proses pembelian (purchace)
+
+        modified:   README.md
+        1. Mendefinisikan url pembelian
+        modified:   app/cart/urls.py
+        2. Mendefinisikan fungsi pembelian
+        modified:   app/cart/views.py
+        3. Membuat templat pembelian
+        new file:   templates/cart/purchase.html
+        4. Menambahkan link pembelian
+        modified:   templates/cart/cart_list.html
+
+        Testing:
+
+        1. Klik movies
+        2. Klik judul movie
+        3. Klik Add to cart
+        4. Klik Purchase
+        DONE :)
+
