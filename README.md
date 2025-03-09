@@ -490,3 +490,10 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   app/cart/admin.py
         new file:   app/cart/migrations/0001_initial.py
         modified:   app/cart/models.py
+
+#### 12.2. Membuat model Item
+
+        modified:   README.md
+        modified:   app/cart/admin.py
+        new file:   app/cart/migrations/0002_item.py
+        modified:   app/cart/models.py

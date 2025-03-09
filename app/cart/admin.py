@@ -2,8 +2,9 @@
 from django.contrib import admin
 
 # Local
-from .models import Order
+from .models import Order, Item
 
 # Register your models here.
 
 admin.site.register(Order)
+admin.site.register(Item)
