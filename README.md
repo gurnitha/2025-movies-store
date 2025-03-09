@@ -497,3 +497,6 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   app/cart/admin.py
         new file:   app/cart/migrations/0002_item.py
         modified:   app/cart/models.py
+
+
+## 13. LAMAN PEMBELIAN DAN ORDER
