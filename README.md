@@ -549,3 +549,17 @@ Sumber: https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edi
         modified:   templates/inc/header.html
         modified:   templates/movies/movie.html
         modified:   templates/movies/movies.html
+
+## DISCLAIMER
+
+        Aplikasi ini dibuat sebagai latihan saya dalam
+        mempelajari Framework Django berdasarkan kode sumber
+        yang terdapat pada Github.com dengan alamat 
+        file https://github.com/PacktPublishing/Django-5-for-the-Impatient-Second-Edition?tab=MIT-1-ov-file.
+
+        Setiap orang yang ingin mempelajari Framework Django
+        untuk membuat aplikasi yang sama, disarankan
+        untuk mempelajarinya dari sumber di atas.
+
+        Tidak ada maksud lain, selain belajar
+        membuat aplikasi berdasarkan Framework Django.
